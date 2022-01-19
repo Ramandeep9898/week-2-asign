@@ -27,9 +27,6 @@ body{
     border-radius: 4px 4px 0 0;
 }
 
-.card-top:hover{
-    background-color: rgb(247, 243, 243) ;
-}
 
 .card-img{
     height: 110px;
@@ -53,7 +50,7 @@ body{
     font-weight: 500;
     color: grey;
     padding: 0px 16px;
-
+    
 }
 
 .card-footer{
@@ -61,9 +58,15 @@ body{
     height: 40px;
     width: 350px;
     position: absolute;
+    
     bottom: 0;
     left: 0;
-   }
+}
+.flex-end{
+    justify-content: center;
+    
+
+}
 
 .btn1{
     color: #6200ee;
@@ -77,18 +80,18 @@ body{
     letter-spacing: 0.8px;
     margin: 0px 8px 0 0;
     user-select: pointer;
-
+    
 }
 
 .btn1:hover{
     background-color: #ede1fd;
-     color: #6200ee; 
+    color: #6200ee; 
 }
 
 .icon-div{
     margin: 0 8px ;
 }
-  
+
 .heart-div{
     border:2px solid black;
     width: 30px;
@@ -99,8 +102,8 @@ body{
 
 .basic-card{
     height: 350px;
-
-
+    
+    
 }
 .basic-card-image-size{
     width: 350px;
@@ -110,11 +113,16 @@ body{
 .card-content-box{
     height: 90px;
     width: 350px;
-
+    
 }
 .card-content-p{
     font-weight: 400;
     margin: 10px 0 8px  0;
 }
+.card-top:hover{
+    background-color: rgb(247, 243, 243) ;
+}
 
-  
+.pad{
+    padding: 0 0 8px 0;
+}
