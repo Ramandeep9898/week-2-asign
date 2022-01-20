@@ -11,35 +11,28 @@ body{
     
 }
 .card{
-    margin: 100px 100px;
+    margin: 50px auto;
     height: 166px;
     width: 350px;
     border-radius: 4px;
     background-color: #fff;
     box-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%), 0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
     position: relative;
-
 }
-
 .card-top{
     height: 110px;
     width: 350px;
     border-radius: 4px 4px 0 0;
     position: absolute;
-
 }
-
-
 .card-img{
     height: 110px;
     width: 110px;
     background-image: url(imgs/me.jpeg);
     border-radius: 4px 4px 0px 0px;
     user-select: auto;
-
-    
+    z-index: 1;   
 }
-
 .card-name{
     font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -47,32 +40,25 @@ body{
     padding: 16px 16px 4px 16px;
     user-select: auto;
     align-content: flex-end;
-    
 }
-
 .card-content{
     font-size: 14px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
     color: grey;
     padding: 0px 16px;
-    
 }
-
 .card-footer{
     padding: 8px;
     height: 40px;
     width: 350px;
     position: absolute;
     bottom: 0;
-    left: 0;
-    
+    left: 0;   
 }
-
 .flex-end{
     justify-content: center;
 }
-
 .btn1{
     color: #6200ee;
     font-size: 14px;
@@ -84,19 +70,15 @@ body{
     background-color: #fff;
     letter-spacing: 0.8px;
     margin: 0px 8px 0 0;
-    user-select: pointer;
-    
+    user-select: pointer; 
 }
-
 .btn1:hover{
     background-color: #ede1fd;
     color: #6200ee; 
 }
-
 .icon-div{
     margin: 0 8px ;
 }
-
 .heart-div{
     border:2px solid black;
     width: 30px;
@@ -104,21 +86,17 @@ body{
     border-radius: 30px;
     margin: 0 5px ;
 }
-
 .basic-card{
     height: 350px;
-    
     
 }
 .basic-card-image-size{
     width: 350px;
     height: 175px;
 }
-
 .card-content-box{
     height: 90px;
     width: 350px;
-    
 }
 .card-content-p{
     font-weight: 400;
@@ -127,25 +105,30 @@ body{
 .card-top:hover{
     background-color: rgb(247, 243, 243) ;
 }
-
 .pad{
     padding: 0 0 8px 0;
 }
-
 .color-white{
     color: #fff;
 }
-
 .bottom{
     position: relative;
     bottom: -97px;
     left: 0;
-    
 }
-
 .TOM-card-size{
         height: 290px;
-        
-        
-   
+}
+.bg-white{
+    position: relative;
+    background-color: #fff;
+    height: 82px;
+    border-radius: 4px;
+
+}
+.header-card{
+    height: 370px;
+}
+.border{
+    border-radius: 0px;
 }
