@@ -25,6 +25,8 @@ body{
     height: 110px;
     width: 350px;
     border-radius: 4px 4px 0 0;
+    position: absolute;
+
 }
 
 
@@ -34,6 +36,8 @@ body{
     background-image: url(imgs/me.jpeg);
     border-radius: 4px 4px 0px 0px;
     user-select: auto;
+
+    
 }
 
 .card-name{
@@ -42,6 +46,8 @@ body{
     font-weight: 500;
     padding: 16px 16px 4px 16px;
     user-select: auto;
+    align-content: flex-end;
+    
 }
 
 .card-content{
@@ -60,7 +66,7 @@ body{
     position: absolute;
     bottom: 0;
     left: 0;
-
+    
 }
 
 .flex-end{
@@ -128,4 +134,18 @@ body{
 
 .color-white{
     color: #fff;
+}
+
+.bottom{
+    position: relative;
+    bottom: -97px;
+    left: 0;
+    
+}
+
+.TOM-card-size{
+        height: 290px;
+        
+        
+   
 }
