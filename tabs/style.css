@@ -17,18 +17,15 @@
     justify-content: center;
     align-items: center;
     font-weight: 500;
-    white-space: nowrap;
-   
+    white-space: nowrap;  
 }
 .tab-button:active{
     color: #6200EE;
     border-bottom: 2px solid #6200EE ;
-    /* border-style: inset ; */
 }
 .tab-button:checked{
     color: #6200EE;
     border-bottom: 2px solid #6200EE ;
-    /* border-style: inset ; */
 }
 .tab-button:hover{
     background-color:rgba(98, 0, 238,0.1);
@@ -38,23 +35,16 @@
 }
 .wrapflex{
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
-
 .tab{
     border: 2px solid rgba(128, 128, 128,0.09);
     width: 500px ;
     overflow-x: scroll;
-
 }
 .tab::-webkit-scrollbar {
     display: none;
 }
-span{
-    display: block;
-}
 .bg{
-    
     background-color: rgba(128, 128, 128,0.09);
 }
