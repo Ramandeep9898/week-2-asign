@@ -8,9 +8,7 @@
     flex-wrap: nowrap;
     
 }
-.tab{
-/* border: 2px solid red; */
-}
+
 .tab-button{
     color: rgba(59, 59, 59,0.8);
     font-size: 16px;
@@ -37,4 +35,9 @@
 }
 .icon{
     margin-right: 10px;
+}
+.wrapflex{
+    display: flex;
+    flex-direction: column;
+    
 }
