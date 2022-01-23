@@ -5,10 +5,8 @@
 }
 .flex{
     display: flex;
-    flex-wrap: nowrap;
-    
+    flex-wrap: nowrap;   
 }
-
 .tab-button{
     color: rgba(59, 59, 59,0.8);
     font-size: 16px;
@@ -19,6 +17,8 @@
     justify-content: center;
     align-items: center;
     font-weight: 500;
+    white-space: nowrap;
+   
 }
 .tab-button:active{
     color: #6200EE;
@@ -40,4 +40,21 @@
     display: flex;
     flex-direction: column;
     
+}
+
+.tab{
+    border: 2px solid rgba(128, 128, 128,0.09);
+    width: 500px ;
+    overflow-x: scroll;
+
+}
+.tab::-webkit-scrollbar {
+    display: none;
+}
+span{
+    display: block;
+}
+.bg{
+    
+    background-color: rgba(128, 128, 128,0.09);
 }
