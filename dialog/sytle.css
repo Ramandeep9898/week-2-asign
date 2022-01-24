@@ -17,6 +17,10 @@
     justify-content: end;
     
 }
+.flex-colo{
+    flex-direction: column;
+
+}
 .box{
     width: 50vw;
     height: 50vh;
