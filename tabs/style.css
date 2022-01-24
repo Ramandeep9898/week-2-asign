@@ -41,10 +41,15 @@
     border: 2px solid rgba(128, 128, 128,0.09);
     width: 500px ;
     overflow-x: scroll;
+
+
 }
 .tab::-webkit-scrollbar {
     display: none;
 }
 .bg{
     background-color: rgba(128, 128, 128,0.09);
+}
+.tabs{
+    margin: 50px auto;
 }
